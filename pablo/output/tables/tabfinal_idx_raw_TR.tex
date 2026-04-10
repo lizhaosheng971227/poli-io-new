@@ -1,0 +1,30 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{6}{c}}
+\toprule
+                    &\multicolumn{3}{c}{Economic index}                               &\multicolumn{3}{c}{Cultural index}                               \\\cmidrule(lr){2-4}\cmidrule(lr){5-7}
+                    &\multicolumn{1}{c}{(1)}         &\multicolumn{1}{c}{(2)}         &\multicolumn{1}{c}{(3)}         &\multicolumn{1}{c}{(4)}         &\multicolumn{1}{c}{(5)}         &\multicolumn{1}{c}{(6)}         \\
+\midrule
+35-49               &      -0.012         &       0.001         &       0.005         &       0.026\sym{**} &       0.014         &       0.028         \\
+                    &     (0.013)         &     (0.013)         &     (0.007)         &     (0.010)         &     (0.012)         &     (0.019)         \\
+50-64               &      -0.010         &      -0.007         &      -0.009         &       0.033\sym{*}  &       0.008         &       0.036         \\
+                    &     (0.030)         &     (0.029)         &     (0.012)         &     (0.017)         &     (0.020)         &     (0.027)         \\
+65+                 &      -0.068         &      -0.089\sym{**} &      -0.061\sym{*}  &       0.063\sym{*}  &       0.025         &       0.043         \\
+                    &     (0.042)         &     (0.043)         &     (0.031)         &     (0.031)         &     (0.038)         &     (0.039)         \\
+Baby Boomers (1946-1964)&                     &                     &       0.053\sym{**} &                     &                     &      -0.022         \\
+                    &                     &                     &     (0.025)         &                     &                     &     (0.014)         \\
+Generation X (1965-1980)&                     &                     &       0.024\sym{*}  &                     &                     &       0.011         \\
+                    &                     &                     &     (0.013)         &                     &                     &     (0.017)         \\
+Millennials and Gen Z (post-1981)&                     &                     &       0.050\sym{**} &                     &                     &       0.013         \\
+                    &                     &                     &     (0.021)         &                     &                     &     (0.027)         \\
+\midrule
+R-squared           &       0.351         &       0.356         &       0.356         &       0.263         &       0.272         &       0.272         \\
+Observations        &      256947         &      255219         &      255219         &      256947         &      255219         &      255219         \\
+Country $\times$ election year FEs&    $\times$         &    $\times$         &    $\times$         &    $\times$         &    $\times$         &    $\times$         \\
+Generational cohort FEs&                     &                     &    $\times$         &                     &                     &    $\times$         \\
+Controls            &                     &    $\times$         &    $\times$         &                     &    $\times$         &    $\times$         \\
+Mean of outcome     &       1.803         &       1.803         &       1.803         &      -0.056         &      -0.056         &      -0.056         \\
+SD of outcome       &       0.961         &       0.960         &       0.960         &       0.863         &       0.863         &       0.863         \\
+\bottomrule
+\end{tabular}
+}
